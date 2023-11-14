@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <button class="btn" id="button">
+        Think you are smart let's <br />find out
+      </button>
+      <div class="quizContainer" id="quizCon">    
+        <div class="quiz">
+          <h1 id="question">Choose the correct answer!</h1>
+          <!-- <h2 id="question ">question here</h2> -->
+          <div id="answer-button">
+            <button class="ans">Answer A</button>
+            <button class="ans">Answer B</button>
+            <button class="ans">Answer C</button>
+          </div>
+          <div class="groupBtn">
+            <button id="next" class="nxt">Next</button>
+            <div class="close" id="closeButton">End</div>
+          </div>
+         <canvas id="confetti"></canvas>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
