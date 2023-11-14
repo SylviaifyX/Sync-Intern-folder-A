@@ -4,7 +4,7 @@
 ## Skill Required live view [https://sync-quiz.vercel.app/]
 * Html
 * Css
-* Javascrip
+* Javascript
 
 # Music App(task3)
 
@@ -13,4 +13,4 @@
 ## Skill Required live view [https://sync-intern-folder-music.vercel.app/]
 * Html
 * Css
-* Javascrip
+* Javascript
